@@ -1,5 +1,48 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + TypeScript + Vite Project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um template de projeto para iniciar o desenvolvimento com Vue 3 e TypeScript usando Vite. O projeto utiliza o `<script setup>` do Vue 3 para uma configuração simplificada e eficiente. 
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Início Rápido
+
+Para começar a trabalhar com este projeto, siga os passos abaixo:
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (>= 14.x)
+- [npm](https://www.npmjs.com/get-npm) ou [yarn](https://yarnpkg.com/)
+
+### Instalação
+
+### Clone este repositório e instale as dependências:
+
+```bash
+git clone https://github.com/a-mandaflores/FrontDesafio
+```
+```bash
+cd FrontendDesafio
+npm install
+```
+### Scripts Disponíveis
+Desenvolvimento: Para iniciar o servidor de desenvolvimento e ver o projeto no navegador:
+
+```bash
+npm run dev
+```
+
+Acesse o projeto em http://localhost:3000.
+
+### Estrutura do Projeto
+src/ - Código fonte do projeto
+assets/ - Arquivos estáticos (imagens, fontes, etc.)
+components/ - Componentes Vue
+views/ - Páginas e visualizações
+App.vue - Componente raiz
+main.ts - Ponto de entrada do projeto
+public/ - Arquivos públicos que serão copiados para o diretório de saída
+
+vite.config.ts - Configuração do Vite
+
+tsconfig.json - Configuração do TypeScript
+
+.eslintrc - Configuração do ESLint
+
